@@ -114,8 +114,7 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
-    height: 100px;
-    
+    zoom: 110%;
 }
 
 .footer {
@@ -126,4 +125,5 @@ body {
     padding: 1rem;
     text-align: center;
     color: whitesmoke;
+    font-family: 'Source Code Pro', monospace;
 }
