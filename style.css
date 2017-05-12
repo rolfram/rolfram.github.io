@@ -81,7 +81,7 @@
     background: #e4405f;
 }
 .social li:nth-child(5) a:before {
-    background: #000;
+    background: #FC3;
 }
 
 .about {
@@ -108,17 +108,18 @@
     font-family: 'Source Code Pro', monospace;
 }
 
+
 body {
     background-image: url("Images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
-    zoom: 110%;
+    zoom: 80%;
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;
