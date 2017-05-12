@@ -20,7 +20,7 @@
     display: flex;
     position: relative;
     padding-bottom: 25px;
-    width: 27.25%;
+    width: 525px;
     margin: 0 auto;
 }
 
@@ -107,7 +107,7 @@ body {
     background-image: url("Images/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: bottom;
     background-attachment: fixed;
 }
 
