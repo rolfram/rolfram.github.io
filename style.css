@@ -106,6 +106,7 @@
     text-align: justify;
     color: #000;
     font-family: 'Source Code Pro', monospace;
+    min-width: 400px;
 }
 
 
@@ -115,7 +116,6 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
-    zoom: 80%;
 }
 
 .footer {
