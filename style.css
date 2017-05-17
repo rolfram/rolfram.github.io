@@ -4,6 +4,13 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-attachment: fixed;
+    text-align: center;
+}
+
+#page-wrap {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
 }
 
 .img-circle {
@@ -101,7 +108,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     width: 550px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .about h1 {
@@ -117,6 +124,7 @@ body {
 }
 
 .button {
+    display: block;
     position: relative;
     border-radius: 4px;
     background-color: #742a25;
@@ -125,11 +133,11 @@ body {
     text-align: center;
     font-size: 28px;
     padding: 20px;
-    width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 25px 44.25%;
+    width: 220px;
     font-family: 'Source Code Pro', monospace;
+    margin: 0 auto;
 }
 
 .button a:link {
@@ -168,5 +176,7 @@ body {
     text-align: center;
     color: whitesmoke;
     font-family: 'Source Code Pro', monospace;
-    margin: 0 39%;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
