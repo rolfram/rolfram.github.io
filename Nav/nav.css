@@ -1,0 +1,106 @@
+body {
+  background-image: url("navimage/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+#page-wrap {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*Resume Button */
+.button_1 {
+  display: block;
+  position: relative;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  padding: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 350px;
+  font-family: 'Source Code Pro', monospace;
+  margin: 0 auto;
+}
+
+.button_1 a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*Project Button */
+.button_2 {
+   display: block;
+  position: relative;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  padding: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 350px;
+  font-family: 'Source Code Pro', monospace;
+  margin: 0 auto;
+}
+
+.button_2 a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*Blog Button */
+.button_3 {
+   display: block;
+  position: relative;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  padding: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 350px;
+  font-family: 'Source Code Pro', monospace;
+  margin: 0 auto;
+}
+
+.button_3 a {
+  text-decoration: none;
+  color: #000;
+}
+
+/*Scary Button */
+.button_4 {
+   display: block;
+  position: relative;
+  border-radius: 4px;
+  background-color: #fff;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 28px;
+  padding: 70px;
+  transition: all 0.5s;
+  cursor: pointer;
+  width: 350px;
+  font-family: 'Source Code Pro', monospace;
+  margin: 0 auto;
+}
+
+.button_4 a {
+  text-decoration: none;
+  color: #000;
+}

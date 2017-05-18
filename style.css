@@ -88,7 +88,7 @@ body {
 }
 
 .social li:nth-child(1) a:before {
-  background: #dd4b39;
+  background: #00b489;
 }
 
 .social li:nth-child(2) a:before {
@@ -100,7 +100,7 @@ body {
 }
 
 .social li:nth-child(4) a:before {
-  background: #e4405f;
+  background: #c32aa3; /* alt color #e4405f */
 }
 
 .social li:nth-child(5) a:before {
@@ -148,7 +148,7 @@ body {
   margin: 0 auto;
 }
 
-.button a:link {
+.button a {
   text-decoration: none;
   color: white;
 }
