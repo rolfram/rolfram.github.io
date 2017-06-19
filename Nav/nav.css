@@ -1,113 +1,132 @@
-body {
-  background-image: url("navimage/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-attachment: fixed;
-  text-align: center;
-}
+  body {
+    background-image: url("navimage/winter.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+  }
 
+  .social {
+    display: flex;
+    position: relative;
+    padding-bottom: 50px;
+    width: 325px;
+    margin: 0 auto;
+  }
 
-#page-wrap {
-  text-align: left;
-  width: 800px;
-  margin: 0 auto;
-}
+  .social li {
+    list-style: none;
+  }
 
-/*Resume Button */
-.button_1 {
-  display: block;
-  position: relative;
-  border-radius: 4px;
-  background-color: #fff;
-  border: none;
-  color: #000;
-  text-align: center;
-  font-size: 28px;
-  padding: 70px;
-  transition: all 0.5s;
-  cursor: pointer;
-  width: 350px;
-  font-family: 'Source Code Pro', monospace;
-  margin: 0 auto;
-  float: left;
-}
+  .social li a {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
 
-.button_1 a {
-  text-decoration: none;
-  color: #000;
-}
+  .social li a .fa {
+    position: relative;
+    color: #262626;
+    transition: .5s;
+    z-index: 3;
+  }
 
-/*Project Button */
-.button_2 {
-   display: block;
-  position: relative;
-  border-radius: 4px;
-  background-color: #fff;
-  border: none;
-  color: #000;
-  text-align: center;
-  font-size: 28px;
-  padding: 70px;
-  transition: all 0.5s;
-  cursor: pointer;
-  width: 350px;
-  font-family: 'Source Code Pro', monospace;
-  margin: 0 auto;
-  float: right;
-}
+  .social li a:hover .fa {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
 
-.button_2 a {
-  text-decoration: none;
-  color: #000;
-}
+  .social li a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
 
-/*Blog Button */
-.button_3 {
-   display: block;
-  position: relative;
-  border-radius: 4px;
-  background-color: #fff;
-  border: none;
-  color: #000;
-  text-align: center;
-  font-size: 28px;
-  padding: 70px;
-  transition: all 0.5s;
-  cursor: pointer;
-  width: 350px;
-  font-family: 'Source Code Pro', monospace;
-  margin: 0 auto;
-  float: left;
-}
+  .social li a:hover:before {
+    top: 0;
+  }
 
-.button_3 a {
-  text-decoration: none;
-  color: #000;
-}
+  .social li:nth-child(1) a:before {
+    background: #00b489;
+  }
 
-/*Scary Button */
-.button_4 {
-   display: block;
-  position: relative;
-  border-radius: 4px;
-  background-color: #fff;
-  border: none;
-  color: #000;
-  text-align: center;
-  font-size: 28px;
-  padding: 70px;
-  transition: all 0.5s;
-  cursor: pointer;
-  width: 350px;
-  font-family: 'Source Code Pro', monospace;
-  margin: 0 auto;
-  float: right;
-}
+  .social li:nth-child(2) a:before {
+    background: #0077b5;
+  }
 
-.button_4 a {
-  text-decoration: none;
-  color: #000;
-}
+  .social li:nth-child(3) a:before {
+    background: #000;
+  }
 
-/* .clearFloat { clear: both; } */
+  .social li:nth-child(4) a:before {
+    background: #c32aa3; /* alt color #e4405f */
+  }
+
+  .social li:nth-child(5) a:before {
+    background: #FC3;
+  }
+
+  .container {
+    border-style: solid;
+    background-color: #698b69;
+    border-width: 1px;
+    position: relative;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 900px;
+    max-height: 903px;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: left;
+  }
+
+  .container figure {
+    overflow: auto;
+  }
+  .container figure img {
+    max-width: 360px;
+    max-height: 270px;
+    float: left;
+  }
+
+  .container figure figcaption {
+    font-size: 200%;
+    border-style: double solid double solid;
+    display: inline-table;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: right;
+    width: 300px;
+    box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.8);
+  }
+
+  .Sidebar {
+    border-style: solid;
+    background-color: #566c73;
+    border-width: 1px;
+    position:absolute;
+    padding-right: 200px;
+    right: 10px;
+    top:92px;
+    bottom: 92px;
+    width: 178px;
+  }
