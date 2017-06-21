@@ -1,0 +1,146 @@
+  body {
+    background-image:url("https://www.therealdawg.github.io/Images/winter.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+  .social {
+    display: flex;
+    position: relative;
+    padding-bottom: 50px;
+    width: 325px;
+    margin: 0 auto;
+  }
+
+  .social li {
+    list-style: none;
+  }
+
+  .social li a {
+    width: 40px;
+    height: 40px;
+    background: #2a2a2a;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 0 10px;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #fff;
+    z-index: 1;
+  }
+
+  .social li a .fa {
+    position: relative;
+    color: #c4d3ff;
+    transition: .5s;
+    z-index: 3;
+  }
+
+  .social li a:hover .fa {
+    color: #fff;
+    transform: rotateY(360deg);
+  }
+
+  .social li a:before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+
+  .social li a:hover:before {
+    top: 0;
+  }
+
+  .social li:nth-child(1) a:before {
+    background: #00b489;
+  }
+
+  .social li:nth-child(2) a:before {
+    background: #0077b5;
+  }
+
+  .social li:nth-child(3) a:before {
+    background: #000;
+  }
+
+  .social li:nth-child(4) a:before {
+    background: #c32aa3; /* alt color #e4405f */
+  }
+
+  .social li:nth-child(5) a:before {
+    background: #FC3;
+  }
+
+  .container {
+    border-style: solid;
+    background-color: #d6d6d6;
+    border-width: 1px;
+    position: relative;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 900px;
+    height: 40%;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: left;
+  }
+
+  .container figure {
+    overflow: auto;
+  }
+  .container figure img {
+    max-width: 360px;
+    max-height: 270px;
+    float: left;
+  }
+
+  .container figure figcaption {
+    background-color: #2a2a2a;
+    color: #fff;
+    font-size: 200%;
+    border-style: groove;
+    display: inline-table;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: right;
+    width: 300px;
+    box-shadow: 0 0 15px 5px rgba(31, 73, 125, 0.8);
+  }
+/*
+  .Sidebar {
+    border-style: solid;
+    background-color: #566c73;
+    border-width: 1px;
+    position:absolute;
+    padding-right: 200px;
+    right: 10px;
+    top:92px;
+    bottom: 92px;
+    width: 178px;
+  }
+*/
+
+.footer {
+  position: relative;
+  padding: 1rem;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Source Code Pro', monospace;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
