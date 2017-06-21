@@ -1,5 +1,6 @@
 body {
-  background-image: url("Images/background.jpg");
+ /* background-image: url("Images/background.jpg"); */
+ background-color: #2a2a2a;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -46,7 +47,7 @@ body {
 .social li a {
   width: 80px;
   height: 80px;
-  background: #fff;
+  background: #2a2a2a;
   text-align: center;
   line-height: 80px;
   font-size: 35px;
@@ -61,7 +62,7 @@ body {
 
 .social li a .fa {
   position: relative;
-  color: #262626;
+  color: #5858a7;
   transition: .5s;
   z-index: 3;
 }
@@ -135,9 +136,9 @@ body {
   display: block;
   position: relative;
   border-radius: 4px;
-  background-color: #742a25;
+  background-color: #2a2a2a;
   border: none;
-  color: #FFFFFF;
+  color: #ff6666;
   text-align: center;
   font-size: 28px;
   padding: 20px;
@@ -150,7 +151,7 @@ body {
 
 .button a {
   text-decoration: none;
-  color: white;
+  color: #ff6666;
 }
 
 .button span {
